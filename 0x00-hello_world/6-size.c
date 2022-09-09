@@ -1,18 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - char charType;
- * int intType;
- * long int longintType;
- * long long int longlongintType;
- * float floatType;
+ * main - is the entry point for the program
  *
- * Description: 'sizeof evaluates the size of a variable'
- *
- * Return: Always 0 (Success)
+ * Return:zero if no error, Non-zero value if errors.
  */
-
-	int main(void)
+int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
