@@ -13,9 +13,6 @@ int main(void)
 	{
 		putchar(c);
 		if (c != 57)
-		{
-			putchar(' ');
-		}
 	}
 	putchar('\n');
 	return (0);
