@@ -1,22 +1,17 @@
 #include <stdio.h>
 /**
- * main - printing numbers from 0-9 with commas and space between them
+ * main - printing numbers from 0-9
  * Description: using the main function
  * this program prints "0123456789"
  * Return: 0
  */
 int main(void)
 {
-	int c;
+	int num;
 
-	for (c = 48; c <= 57; c++)
-	{
-	        putchar(c);
-		if (c !=57)
-		{
-		    putchar(' ');
-		}
-	}
+	for (num = 0; num < 10; num++)
+	        putchar((num % 10) + '0');
+	
 	putchar('\n');
 	return (0);
 }
