@@ -13,6 +13,6 @@ int main(void)
 		putchar(letter);
 
 	putchar('\n');
-
+	void print_alphabet(void);
 	return (0);
 }
