@@ -6,10 +6,12 @@
  * Return: length.
  */
 
-int _strlen(char *s)
+size_t _strlen(const char *str)
 {
-	while (*str)
-		_putchar(*str++);
+	size_t len = 0;
 
-	_putchar('\n');
+	while (*str++)
+		len++;
+
+	return (len);
 }
