@@ -2,13 +2,19 @@
 #include "main.h"
 
 /**
- * _puts - prints a string .
- * @str: string.
+ * _puts - prints a string
+ * @str: string to print 
+ *
+ * Desc: prints a string
  */
 void _puts(char *str)
 {
-	while (*str)
-		_putchar(*str++);
+	int i = 0;
 
-	_putchar('\n');
+	while (*(str + i) != '\0')
+	{
+		putchar(*str + i));
+		i++;
+	}
+	putchar(10);
 }
