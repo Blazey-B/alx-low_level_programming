@@ -2,8 +2,8 @@
 
 /**
  * Main: Entry point
- * Desc: Function to return the length of a string
- * Return: Always 0.
+ * @str: string.
+ * Return: length.
  */
 
 int _strlen(char *s)

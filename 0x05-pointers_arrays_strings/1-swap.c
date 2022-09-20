@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * Main: Entry point
- * Function that swaps the value of two integers
+ * Main: Entry point of the program
+ * @a: first integer to swap
+ * @b: second integer to swap
  * Return: Always 0
  */
 
