@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * puts_half - half of a string.
+ * print_array - print n element of array
  * @n: is the number of elements
  * @a: array
  * Return: nothing.
  */
 void print_array(int *a, int n);
-({
+{
 	int inc;
 
 	for (inc = 0; inc < n ; inc++)
