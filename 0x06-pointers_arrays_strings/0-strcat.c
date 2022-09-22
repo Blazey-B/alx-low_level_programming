@@ -10,7 +10,8 @@
 char *_strcat(char *dest, char *src)
 {
 	/* concatenates src to dest */
-	strcat(src, dest)
+	strcat(src, dest);
+	_putchar("strcat( src, dest): %s\n", src );
 
-		result 0;
+	result 0;
 }

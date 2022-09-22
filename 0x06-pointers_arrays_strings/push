@@ -2,6 +2,6 @@
 
 git add .
 echo "enter commit message"
-read myCommit
+read -p "myCommit"
 git commit -m "myCommit"
 git push
